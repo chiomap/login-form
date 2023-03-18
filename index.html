@@ -5,23 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>FORM ONE</h1>
-        <form >
-            <label for="fname">name:</label><br>
+        <form id="form1">
+            <label for="fname">Name:</label><br>
             <input type="text" id="name" name="name" placeholder="oforah chioma" required><br>
-            <label for="phone-number">phone-number:</label><br>
+            <label for="phone-number">Phone-number:</label><br>
             <input type="name" id="phone-number" name="phone-number" placeholder="08100294464" required><br>
-            <label for="email">email</label><br>
+            <label for="email">Email</label><br>
             <input type="email" id="email" name="email" placeholder="oforahp@yahoo.com" required><br>
-            <label for="Gender">Gender:</label><br>
-            <select id="Gender" name="Gender" size="2" required>
+            <!-- <label for="Gender">Gender:</label><br>
+            <select id="Gender" name="Gender" size="2" type="radio" required>
                 <option value="male">male</option>
                 <option value="female">female</option>
-              </select><br>
-              
-            <input type="submit" value="Submit">
+              </select><br> -->
+         <div id="gen">
+            <label for="gender">Gender</label><br>
+              <input  type="radio" name="Gender" value="male">Male
+              <input  type="radio" name="Gender" value="female">Female
+         </div><br>
+              <input id="sub" type="submit" value="Submit">
            
         </form>
     </body>

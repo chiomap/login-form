@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+    
+}
+h1{
+    color:rgb(161, 161, 203);
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+#form1{ 
+   display: flex;
+   flex-direction: column; 
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+
+label{
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    padding: 8px;
+    font-size: 2rem;
+    border-radius: 3rem;
+}
+
+#gen{
+    padding: 0px;
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+#sub{
+    padding: 0px;
+
+}
+
